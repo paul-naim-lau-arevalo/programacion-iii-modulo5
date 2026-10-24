@@ -10,9 +10,14 @@ edades = {
     "Pedro": 35
 }
 
-nombre = input("Ingresa un nombre: ")
+while True:
+    nombre = input("Ingresa un nombre (o 'salir' para terminar): ").strip().title()
 
-if nombre in edades:
-    print(f"{nombre} tiene {edades[nombre]} años.")
-else:
-    print("La persona no fue encontrada.")
+    if nombre == "Salir":
+        print("Programa finalizado.")
+        break
+
+    if nombre in edades:
+        print(f"{nombre} tiene {edades[nombre]} años.")
+    else:
+        print("La persona no fue encontrada.")
