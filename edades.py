@@ -1,13 +1,18 @@
 # Taller grupal - Modulo 5
 # Listas, diccionarios y condicionales
 
-nombres = ["Ana", "Luis", "Carlos", "Maria", "Pedro"]
+nombres = ["Ana", "Luis", "Carlos", "Maria", "Pedro", "Sofia", "Diego", "Elena", "Javier", "Lucia"]
 edades = {
     "Ana": 30,
     "Luis": 25,
     "Carlos": 22,
     "Maria": 28,
-    "Pedro": 35
+    "Pedro": 35,
+    "Sofia": 24,
+    "Diego": 31,
+    "Elena": 27,
+    "Javier": 29,
+    "Lucia": 26
 }
 
 while True:
